@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Web", "SpaFramework.Web\SpaFramework.Web.csproj", "{27B94D90-E1A9-431F-82FE-4CF76A24CEC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Core", "SpaFramework.Core\SpaFramework.Core.csproj", "{C6C6DF05-40B0-4921-9A12-D53538CF0D27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.App", "SpaFramework.App\SpaFramework.App.csproj", "{FD69CE04-1518-4C05-9D06-AC0FAD427532}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{921F34AB-2F68-466D-9E42-1CFCA828C635}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Providers.SendGrid", "SpaFramework.Providers.SendGrid\SpaFramework.Providers.SendGrid.csproj", "{128BE872-BC19-40BC-BA05-EDB70A525BBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Providers.MailJet", "SpaFramework.Providers.MailJet\SpaFramework.Providers.MailJet.csproj", "{28470802-FC1B-4F59-B38C-8F5B5816EB67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68905E84-9409-4424-B33B-F59BB83E0E90}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Worker", "SpaFramework.Worker\SpaFramework.Worker.csproj", "{AEA17853-9E26-4334-9C4A-020849F3D688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.DTO", "SpaFramework.DTO\SpaFramework.DTO.csproj", "{BE4A8E14-7592-48C1-81B3-08F0F81A75C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Providers.MailerServiceAbstractions", "SpaFramework.Providers.MailerService\SpaFramework.Providers.MailerServiceAbstractions.csproj", "{77B3DFCD-8F41-4C44-BE51-F9318F174ED6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaFramework.Providers.Twilio", "SpaFramework.Providers.Twilio\SpaFramework.Providers.Twilio.csproj", "{4B6D2E7A-5F14-48D1-B277-B3860310F169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B94D90-E1A9-431F-82FE-4CF76A24CEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B94D90-E1A9-431F-82FE-4CF76A24CEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B94D90-E1A9-431F-82FE-4CF76A24CEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B94D90-E1A9-431F-82FE-4CF76A24CEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C6DF05-40B0-4921-9A12-D53538CF0D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C6DF05-40B0-4921-9A12-D53538CF0D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C6DF05-40B0-4921-9A12-D53538CF0D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C6DF05-40B0-4921-9A12-D53538CF0D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD69CE04-1518-4C05-9D06-AC0FAD427532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD69CE04-1518-4C05-9D06-AC0FAD427532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD69CE04-1518-4C05-9D06-AC0FAD427532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD69CE04-1518-4C05-9D06-AC0FAD427532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128BE872-BC19-40BC-BA05-EDB70A525BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128BE872-BC19-40BC-BA05-EDB70A525BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128BE872-BC19-40BC-BA05-EDB70A525BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128BE872-BC19-40BC-BA05-EDB70A525BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28470802-FC1B-4F59-B38C-8F5B5816EB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28470802-FC1B-4F59-B38C-8F5B5816EB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28470802-FC1B-4F59-B38C-8F5B5816EB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28470802-FC1B-4F59-B38C-8F5B5816EB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA17853-9E26-4334-9C4A-020849F3D688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA17853-9E26-4334-9C4A-020849F3D688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA17853-9E26-4334-9C4A-020849F3D688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA17853-9E26-4334-9C4A-020849F3D688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4A8E14-7592-48C1-81B3-08F0F81A75C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4A8E14-7592-48C1-81B3-08F0F81A75C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4A8E14-7592-48C1-81B3-08F0F81A75C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4A8E14-7592-48C1-81B3-08F0F81A75C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B3DFCD-8F41-4C44-BE51-F9318F174ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B3DFCD-8F41-4C44-BE51-F9318F174ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B3DFCD-8F41-4C44-BE51-F9318F174ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B3DFCD-8F41-4C44-BE51-F9318F174ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6D2E7A-5F14-48D1-B277-B3860310F169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6D2E7A-5F14-48D1-B277-B3860310F169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6D2E7A-5F14-48D1-B277-B3860310F169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6D2E7A-5F14-48D1-B277-B3860310F169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{128BE872-BC19-40BC-BA05-EDB70A525BBC} = {921F34AB-2F68-466D-9E42-1CFCA828C635}
+		{28470802-FC1B-4F59-B38C-8F5B5816EB67} = {921F34AB-2F68-466D-9E42-1CFCA828C635}
+		{77B3DFCD-8F41-4C44-BE51-F9318F174ED6} = {921F34AB-2F68-466D-9E42-1CFCA828C635}
+		{4B6D2E7A-5F14-48D1-B277-B3860310F169} = {921F34AB-2F68-466D-9E42-1CFCA828C635}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57042B7F-4064-4FDA-A24D-DE5BDC80B6BC}
+	EndGlobalSection
+EndGlobal
