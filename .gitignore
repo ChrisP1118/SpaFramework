@@ -344,3 +344,4 @@ appsettings.Development.json
 appsettings.Production.json
 
 SpaFramework.Web/Logs/
+Logs/Warnings.txt
